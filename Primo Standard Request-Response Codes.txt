@@ -1,0 +1,33 @@
+Primo Standard Request-Response Codes
+Version 0.0.1 - plain text version
+
+==================================
+
+Request:
+[?] Input
+  Ask the user something. like input.
+  [?] What is your name?
+
+==================================
+
+Response:
+[+] Successed
+  Any successful response.
+  [+] Added Successfully.
+
+[-] Error
+  Any error/unsuccessful response.
+  [-] You don't have permission.
+
+[!] Warning
+  Something happened but not closed the script.
+  [!] Local Server is offline.
+
+[x] Fatal Error (script closed)
+  Something happened and the script closed with an error.
+  [x] 500 HTTP Internal Server Error.
+
+[>] Information
+  Notice.
+  [>] Do not forget to add 'http' in the url field.
+
